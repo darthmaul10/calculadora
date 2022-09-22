@@ -38,18 +38,3 @@ h3 {
     font-size: 3rem;
   }
 }
-
-.hero {
-  background-image: url(../img/slider/1.jpg);
-  height: 25rem;
-  background-size: cover;
-  background-position: center center ;
-}
-@media (min-width: 768px) {
-  .hero {
-    
-    height: 55rem;
-  }
-}
-
-
