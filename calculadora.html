@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora JS</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="d-flex flex-column  align-items-center mt-5">
+  <label for="" class="display-3 fw-bold">Calculadora JS</label>
+  <table id="calculadora" class="bg-dark text-light">
+    <thead>
+      <tr>
+        <th colspan="4">
+          <input class="rounded-pill bg-light" disabled type="text" id="operacion" name="operacion">
+        </th>
+      </tr>
+    </thead>
+    <tbody class="text-center fs-2">
+      <tr>
+        <td class="numeros">1</td>
+        <td class="numeros">2</td>
+        <td class="numeros">3</td>
+        <td class="operadores">+</td>
+      </tr>
+      <tr>
+        <td class="numeros">4</td>
+        <td class="numeros">5</td>
+        <td class="numeros">6</td>
+        <td class="operadores">-</td>
+      </tr>
+      <tr>
+        <td class="numeros">7</td>
+        <td class="numeros">8</td>
+        <td class="numeros">9</td>
+        <td class="operadores">/</td>
+      </tr>
+      <tr>
+        <td id="limpiar">C</td>
+        <td class="numeros">0</td>
+        <td class="operadores">*</td>
+        <td id="igual">=</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
